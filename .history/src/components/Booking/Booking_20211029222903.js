@@ -17,7 +17,7 @@ const Booking = () => {
         // const savedCart = getStoredCart();
         // data.order = savedCart;
 
-        // fetch('http://localhost:5000/orders', {
+        // fetch('https://pacific-castle-78944.herokuapp.com/orders', {
         //     method: "POST",
         //     headers: {
         //         'content-type': 'application/json'

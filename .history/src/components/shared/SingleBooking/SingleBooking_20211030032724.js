@@ -6,7 +6,7 @@ const SingleBooking = (props) => {
     const url = window.location.pathname;
 
     const handleDelete = id => {
-        fetch('http://localhost:5000/addPackage', {
+        fetch('https://pacific-castle-78944.herokuapp.com/addPackage', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

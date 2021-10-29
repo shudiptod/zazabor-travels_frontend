@@ -8,7 +8,7 @@ const SingleBooking = (props) => {
 
     const handleDelete = id => {
 
-        fetch(`http://localhost:5000/bookings?id=${id}`, {
+        fetch(`https://pacific-castle-78944.herokuapp.com/bookings?id=${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -24,7 +24,7 @@ const SingleBooking = (props) => {
 
     const handleUpdate = id => {
         console.log(id)
-        fetch(`http://localhost:5000/updatePending?id=${id}`, {
+        fetch(`https://pacific-castle-78944.herokuapp.com/updatePending?id=${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

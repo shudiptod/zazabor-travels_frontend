@@ -6,7 +6,7 @@ const AllBookings = () => {
     const { user } = useFirebase();
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/myBookings?email=${}`)
+        fetch(`https://pacific-castle-78944.herokuapp.com/myBookings?email=${}`)
             .then(res => res.json())
             .then(data => {
                 setBookings(data);

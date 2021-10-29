@@ -14,7 +14,7 @@ const SingleBooking = (props) => {
         const data = {
             id: id
         }
-        fetch(`http://localhost:5000/updatePending`, {
+        fetch(`https://pacific-castle-78944.herokuapp.com/updatePending`, {
             method: "PUT",
             headers: {
                 'content-type': 'application/json'

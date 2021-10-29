@@ -8,7 +8,7 @@ const AddPackage = () => {
 
     const onSubmit = data => {
 
-        fetch('http://localhost:5000/addPackage', {
+        fetch('https://pacific-castle-78944.herokuapp.com/addPackage', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

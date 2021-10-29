@@ -4,7 +4,7 @@ import SingleBooking from '../shared/SingleBooking/SingleBooking';
 const MyBookings = () => {
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/bookings')
+        fetch('https://pacific-castle-78944.herokuapp.com/bookings')
             .then(res => res.json())
             .then(data => {
                 setBookings(data);

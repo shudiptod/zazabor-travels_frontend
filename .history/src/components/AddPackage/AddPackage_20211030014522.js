@@ -10,7 +10,7 @@ const AddPackage = () => {
 
         console.log(data);
 
-        // fetch('http://localhost:5000/bookings', {
+        // fetch('https://pacific-castle-78944.herokuapp.com/bookings', {
         //     method: "POST",
         //     headers: {
         //         'content-type': 'application/json'

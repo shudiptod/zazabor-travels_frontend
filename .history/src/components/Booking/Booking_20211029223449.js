@@ -10,7 +10,7 @@ const Booking = () => {
     const { packageId } = useParams();
     const [singlePackage, setSinglePackage] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/packages/${packageId}`)
+        fetch(`https://pacific-castle-78944.herokuapp.com/packages/${packageId}`)
             .then(res => res.json())
             .then(data => {
                 setSinglePackage(data);
@@ -24,7 +24,7 @@ const Booking = () => {
         // const savedCart = getStoredCart();
         // data.order = savedCart;
 
-        // fetch('http://localhost:5000/orders', {
+        // fetch('https://pacific-castle-78944.herokuapp.com/orders', {
         //     method: "POST",
         //     headers: {
         //         'content-type': 'application/json'

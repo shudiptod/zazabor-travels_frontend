@@ -4,7 +4,7 @@ const AllBookings = () => {
 
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/bookings')
+        fetch('https://pacific-castle-78944.herokuapp.com/bookings')
             .then
     }, [])
     return (

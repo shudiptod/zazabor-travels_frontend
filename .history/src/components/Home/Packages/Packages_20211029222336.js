@@ -6,7 +6,7 @@ const Packages = () => {
     const [packages, setPackages] = useState([]);
     useEffect(async () => {
 
-        await fetch('http://localhost:5000/packages')
+        await fetch('https://pacific-castle-78944.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => {
                 setPackages(data);
