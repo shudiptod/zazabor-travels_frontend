@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Sajek Family Tour",
+        "img": "https://i.ibb.co/9TzqQ13/Sajek-Valley-Rangamati-Featured.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Cox's Bazar Family Tour",
+        "img": "https://i.ibb.co/GdXgj6h/index.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Sajek Solo Tour",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Sajek Couple Package",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Rangamati Solo Tour",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Bandarban Team Trip",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Bandarban Team Trip",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    },
+    {
+        "name": "Bandarban Team Trip",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "100"
+    }
+]

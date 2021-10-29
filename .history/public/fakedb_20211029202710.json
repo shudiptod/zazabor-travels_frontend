@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Sajek Family Tour",
+        "img": "https://i.ibb.co/9TzqQ13/Sajek-Valley-Rangamati-Featured.jpg",
+        "duration": "3",
+        "people": "4",
+        "description": "Family trips are a great way for children to meet and interact with other kids from around the world who are close to their own age and share common interests. So go to sajek.",
+        "price": "300"
+    },
+    {
+        "name": "Cox's Bazar Family Tour",
+        "img": "https://i.ibb.co/GdXgj6h/index.jpg",
+        "duration": "4",
+        "people": "4",
+        "description": "Cox's is a hot destination for families to spend time together. Family trips are a great way for children to meet and interact with other kids from around the world who are close to their own age and share common interests.",
+        "price": "500"
+    },
+    {
+        "name": "Sajek Solo Tour",
+        "img": "https://i.ibb.co/mRS8Js8/wt-jun4-18-pg10-11-1-1528106614843.jpg",
+        "duration": "2",
+        "people": "1",
+        "description": "Travelling solo is one of the best ways to challenge yourself and get more out of adventures! When you travel alone, you get to choose when and how! And Sajek is the best place for it.",
+        "price": "100"
+    },
+    {
+        "name": "Sajek Couple Package",
+        "img": "https://i.ibb.co/VNGQB8m/Sajek-Valley-Tour-Package-3.jpg",
+        "duration": "3",
+        "people": "2",
+        "description": "It's not where you travel, it's who you travel with. After selecting your 'WHO', sajek will be waiting to witness your love.",
+        "price": "800"
+    },
+    {
+        "name": "Rangamati Solo Tour",
+        "img": "https://i.ibb.co/QYwvf67/index.jpg",
+        "duration": "2",
+        "people": "1",
+        "description": "Travelling solo is one of the best ways to challenge yourself and get more out of adventures! When you travel alone, you get to choose when and how! And Rangamati is the best place for it",
+        "price": "100"
+    },
+    {
+        "name": "Bandarban Team Trip",
+        "img": "https://i.ibb.co/j38ZqRL/images.jpg",
+        "duration": "2",
+        "people": "10",
+        "description": "One of the biggest challenges about going on vacation with large team is planning the trip. Let us do that for your Bandarban Vacation.",
+        "price": "1000"
+    },
+    {
+        "name": "Bandarban Couple Vacation",
+        "img": "https://i.ibb.co/02mCw80/images.jpg",
+        "duration": "4",
+        "people": "2",
+        "description": "It's not where you travel, it's who you travel with. Make love at the beautiful locations of Bandarban with our delux package.",
+        "price": "1500"
+    },
+    {
+        "name": "Saint Martin Honeymoon Package",
+        "img": "https://image.shutterstock.com/image-photo/bandarban-bangladeshjanuary-7-2015-adventure-600w-1765613285.jpg",
+        "duration": "7",
+        "people": "2",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price": "700"
+    }
+]
