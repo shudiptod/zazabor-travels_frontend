@@ -15,10 +15,13 @@ const Header = () => {
         history.push(url);
     }
     return (
-        <div className="w-full bg-gray-800 py-5 flex justify-around items-center text-white text-sm">
-            <img src={logo} className="w-16 h-10 bg-white rounded-lg cursor-pointer" onClick={() => handleNavLink("/")} />
+        <div className="w-full bg-gray-800 py-5 lg:flex lg:flex-row sm:flex-col lg:items-center lg:justify-around sm:justify-around sm:items-center text-white text-sm">
 
-            <div className="w-6/12 flex justify-evenly">
+            <div className="lg:w-16 sm:w-full">
+                <img src={logo} className="lg:w-full mx-auto h-10 bg-white rounded-lg cursor-pointer" onClick={() => handleNavLink("/")} />
+
+            </div>
+            <div className="lg:w-6/12 sm:w-full flex lg:justify-evenly ">
                 <button className="font-semibold px-3 py-2 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-md"
                     onClick={() => handleNavLink("/home")}>Home</button>
                 {
@@ -38,7 +41,7 @@ const Header = () => {
             </div>
             {
                 user?.email ?
-                    <div className="flex w-3/12 justify-around items-center">
+                    <div className="flex lg:w-3/12 sm:w-full justify-around items-center ">
                         <h4 className="font-semibold text-sm">
                             {user.displayName}</h4>
                         <img src={user.photoURL} className="rounded-full h-10 w-10 flex items-center justify-center border-4 border-double border-white" />

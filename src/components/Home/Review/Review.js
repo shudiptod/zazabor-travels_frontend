@@ -5,7 +5,7 @@ const Review = () => {
         <div>
             <h2 className="text-3xl text-center font-semibold text-gray-800 font-mono my-10">
                 Review From our Nomads</h2>
-            <div className="w-10/12 mx-auto grid grid-cols-3 align">
+            <div className="w-10/12 mx-auto lg:grid lg:grid-cols-3 ">
                 <blockquote>
                     <p>Pretty sweet tool that makes it so much easier to visualize and plan a road trip to my favourite rock climbing destinations and explore the area around.</p>
                 </blockquote>

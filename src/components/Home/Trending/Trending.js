@@ -4,7 +4,7 @@ const Trending = () => {
     return (
         <div>
             <h2 className="text-3xl text-center font-semibold text-gray-800 font-mono my-10">Trending Spots</h2>
-            <div className="w-11/12 h-48 mx-auto gap-0 grid grid-cols-4">
+            <div className="lg:w-11/12 lg:h-48 lg:mx-auto lg:gap-0 lg:grid lg:grid-cols-4">
 
                 <img
                     className="w-full h-full transition duration-1000 ease-in-out transform hover:scale-125"

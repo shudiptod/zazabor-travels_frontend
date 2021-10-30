@@ -18,10 +18,10 @@ const Login = () => {
     };
 
     return (
-        <div className="text-center mt-8">
+        <div className="text-center my-24">
             <h2 className="text-3xl text-yellow-600 font-mono font-semibold">Sign In Using Google</h2>
             <button
-                className="px-3 py-1 bg-yellow-700 text-white font-bold rounded-md mt-8"
+                className="px-3 py-1 bg-yellow-600 hover:bg-yellow-900 text-white font-bold rounded-md mt-8"
                 onClick={handleGoogleLogin}
             >Google Sign In</button>
         </div>
