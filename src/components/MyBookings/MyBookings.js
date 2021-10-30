@@ -8,13 +8,12 @@ const MyBookings = () => {
     const { user } = useFirebase();
     const { email } = user;
     useEffect(() => {
-        fetch(`https://pacific-castle-78944.herokuapp.com/bookings?email=${email}`)
+        fetch(`https://pacific-castle-78944.herokuapp.com/bookings?email=${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setBookings(data);
-                console.log(data);
             })
-    }, [user]);
+    }, [email]);
     return (
         <div>
             <h2 className="text-center text-blue-900 font-semibold font-mono text-2xl my-5">Your Booking List</h2>

@@ -17,7 +17,7 @@ const SingleBooking = (props) => {
             })
                 .then(res => res.json())
                 .then(data => {
-                    if (data.modifiedCount > 0) {
+                    if (data.deletedCount > 0) {
                         alert('Booking Deleted! Reloading to See change.');
                         window.location.reload();
                     }
@@ -45,7 +45,7 @@ const SingleBooking = (props) => {
                 }
             })
     }
-    console.log("haha");
+
     return (
         <div className="flex flex-col lg:flex-row mt-4 ">
             <div className="w-10/12 mx-auto lg:w-6/12 flex flex-col justify-center">
