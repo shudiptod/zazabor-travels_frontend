@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
 import useFirebase from '../../hooks/useFirebase';
 
+
+import loader from '../../images/loader.gif';
 import './Booking.css';
 const Booking = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
@@ -52,15 +54,24 @@ const Booking = () => {
     };
     return (
         <div className="flex flex-col lg:flex-row mt-4">
-            <div className="w-full lg:w-6/12 lg:border-r-4 border-gray-800 flex flex-col pt-10">
-                <img src={singlePackage.img} className="w-8/12 lg:w-5/12 mx-auto rounded-md" />
-                <h2 className="text-center font-semibold font-mono text-xl mt-2">{singlePackage.name}</h2>
-                <h2 className="text-center font-semibold font-mono text-lg mt-2">Person: {singlePackage.people}</h2>
-                <h2 className="text-center font-semibold font-mono text-lg mt-2">Duration: {singlePackage.duration} Day(s)</h2>
-                <h3 className="text-center font-semibold font-mono text-xl mt-2">Price: {singlePackage.price} USD</h3>
-                <p className="text-justify font-medium font-mono text-md mt-2 w-8/12 mx-auto">{singlePackage.description}</p>
+            {
+                singlePackage.name === undefined ?
+                    <div className="w-full lg:w-6/12 lg:border-r-4 border-gray-800 flex flex-col pt-10">
+                        <img src={loader} className="w-10/12 mx-auto" />
+                    </div>
+                    :
+                    <div className="w-full lg:w-6/12 lg:border-r-4 border-gray-800 flex flex-col pt-10">
+                        <img src={singlePackage.img} className="w-8/12 lg:w-5/12 mx-auto rounded-md" />
+                        <h2 className="text-center font-semibold font-mono text-xl mt-2">{singlePackage.name}</h2>
+                        <h2 className="text-center font-semibold font-mono text-lg mt-2">Person: {singlePackage.people}</h2>
+                        <h2 className="text-center font-semibold font-mono text-lg mt-2">Duration: {singlePackage.duration} Day(s)</h2>
+                        <h3 className="text-center font-semibold font-mono text-xl mt-2">Price: {singlePackage.price} USD</h3>
+                        <p className="text-justify font-medium font-mono text-md mt-2 w-8/12 mx-auto">{singlePackage.description}</p>
 
-            </div>
+                    </div>
+
+            }
+
             <div className="w-full lg:w-6/12 flex flex-col justify-center items-center">
                 <h3 className="text-3xl text-center font-semibold text-gray-800 font-mono my-10"
                 >Confirm Your Vacation</h3>
