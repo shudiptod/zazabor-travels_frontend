@@ -29,7 +29,7 @@ function App() {
             <PrivateRoute path="/booking/:packageId" >
               <Booking></Booking>
             </PrivateRoute>
-            <PrivateRoute path="/myBookings" >
+            <PrivateRoute path="/myBookings/:email" >
               <MyBookings></MyBookings>
             </PrivateRoute>
             <PrivateRoute path="/allBookings" >

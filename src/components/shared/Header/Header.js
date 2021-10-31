@@ -26,7 +26,7 @@ const Header = () => {
                     onClick={() => handleNavLink("/home")}>Home</button>
                 {
                     user?.email ? <button className="font-semibold px-3 py-2 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-md"
-                        onClick={() => handleNavLink("/myBookings")}>My Bookings</button> : <></>
+                        onClick={() => handleNavLink(`/myBookings/${user.email}`)}>My Bookings</button> : <></>
                 }
                 {
                     user?.email ? <button className="font-semibold px-3 py-2 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-md"
